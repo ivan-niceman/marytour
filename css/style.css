@@ -6,8 +6,14 @@ a:hover {
   text-decoration: none;
   color: rgb(255, 169, 62);
 }
+a:focus {
+  box-shadow: none !important;
+}
 li {
   list-style: none;
+}
+button:focus {
+  box-shadow: none !important;
 }
 .container {
   max-width: 1320px;
@@ -263,8 +269,49 @@ li {
     display: none;
   }
 }
-.bus-tour {
+/* .bus-tour {
   margin-top: -274px;
+} */
+.sale__card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(253px, 320px));
+  row-gap: 20px;
+  justify-content: center;
+}
+.card__height {
+  height: 200px;
+}
+.sale__btn-color {
+  background-color: #148399;
+  border-color: #148399;
+  color: #fff;
+}
+.sale__btn-color:hover {
+  color: #fff !important;
+}
+.sale__title {
+  font-size: 16px;
+}
+.sale__subtitle {
+  font-size: 16px;
+  text-decoration: underline;
+}
+.sale__list {
+  padding: 0;
+}
+.btn__sale {
+  display: flex;
+}
+.btn__sale::before {
+  content: "";
+  background: url(../img/whatsapp.png) no-repeat;
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  margin: 0 12px 0 0;
+}
+.btn__sale:active {
+  outline: none;
 }
 .cruise-tour {
   margin-top: -259px;
