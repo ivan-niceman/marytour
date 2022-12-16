@@ -111,7 +111,8 @@ button:focus {
 .send-message {
   position: fixed;
   left: 0;
-  top: 45%;
+  top: 50%;
+  transform: translateY(-50%);
   padding: 0;
   z-index: 10;
 }
@@ -137,7 +138,8 @@ button:focus {
   color: rgb(255, 255, 255);
 }
 .send-message li a img {
-  padding: 0 5px 5px;
+  padding: 5px;
+  width: 40px;
 }
 .tours {
   margin: -370px auto 0;
@@ -269,14 +271,12 @@ button:focus {
     display: none;
   }
 }
-/* .bus-tour {
-  margin-top: -274px;
-} */
 .sale__card {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(253px, 320px));
   row-gap: 20px;
   justify-content: center;
+  padding: 0;
 }
 .card__height {
   height: 200px;

@@ -4,123 +4,98 @@
         <li>
           <a href="https://wa.me/+79057902382" target="_blank" class="whatsapp"
             >WhatsApp
-            <img src="img/whatsapp.png" alt="whatsapp" />
+            <img src="./img/whatsapp.png" alt="whatsapp" />
+          </a>
+        </li>
+        <li>
+          <a href="https://t.me/miro_tour_msk" target="_blank" class="telegram">Telegram
+            <img src="./img/telegram.png" alt="telegramm">
           </a>
         </li>
         <li>
           <a href="mailto:info@marytour.ru" class="mail"
             >E-mail
-            <img src="img/email.png" alt="email" />
+            <img src="./img/email.png" alt="email" />
+          </a>
+        </li>
+        <li>
+          <a href="https://vk.com/mirotour" target="_blank" class="mail"
+            >vkontakte
+            <img src="./img/vk_icon.png" alt="vkontakte" />
           </a>
         </li>
       </ul>
       <div class="container bus-tour">
-        <div class="card-deck sale__card">
-          <div class="card">
-            <img src="./img/sale/sri-lanka.jpg" class="card-img-top card__height" alt="Чайные плантации">
+        <ul class="card-deck sale__card">
+          <li class="card">
+            <img src="./img/sale/adygheya.jpg" class="card-img-top card__height" alt="природа в Адыгеи">
             <div class="card-body">
-              <h5 class="card-title">Февральские каникулы на Шри-Ланке: экскурсии + отдых</h5>
-              <p class="card-text">Стоимость: от 127 000 руб/чел</p>
-              <p class="card-text">21.02.2023 - 03.03.2023</p>
-              <button type="button" class="btn sale__btn-color" data-toggle="modal" data-target="#exampleModal13">Подробнее</button>
+              <h5 class="card-title">Адыгея на каникулы</h5>
+              <p class="card-text">Стоимость: от 23 700 руб/чел</p>
+              <p class="card-text">Заезд: 02.01.2023.</p>
+              <p class="card-text">Продолжительность: 5 дней / 4 ночи.</p>
+              <button type="button" class="btn sale__btn-color" data-toggle="modal" data-target="#exampleModal1">Подробнее</button>
 
               <!-- Модальное окно -->
-              <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-scrollable">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="staticBackdropLabel">Маршрут тура:</h5>
+                      <h5 class="modal-title" id="staticBackdropLabel1">Маршрут тура:</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
                     <div class="modal-body">
-                      <h3 class="sale__title">Отпуск на Шри-Ланке - это не только отдых на океане, но и незабываемая экскурсионная программа!</h3>
+                      <h3 class="sale__title">Каменномостский — Хаджохская теснина — плато Лаго-Наки — Большая Азишская пещера — термальный источник «АкваТермо» — Свято-Михайловский-Афонский монастырь — Гузерипль — Гранитный каньон — гора Монах — национальный мастер-класс.</h3>
+                      <h4 class="sale__subtitle">Программа тура:</h4>
                       <ul class="sale__list">
-                        <li class="sale__item">Экскурсионный тур по самым красивым местам острова + отдых на океане в  прекрасном отеле</li><br>
-                        <li class="sale__item">5 дней впечатляющих приключений:</li>
-                        <li class="sale__item">Питомник  Слонов в Пиннавеле</li>
-                        <li class="sale__item">Пещерный храм Дамбулла</li>
-                        <li class="sale__item">Посещение Сада специй</li>
-                        <li class="sale__item">Подъем на Сигирию (главная достопримечательность Шри-Ланки)</li>
-                        <li class="sale__item">Храм Канди</li>
-                        <li class="sale__item">Ботанический сад в Перадении</li>
-                        <li class="sale__item">Чайные плантации Нувара Элия</li>
-                        <li class="sale__item">Город Элла</li>
-                        <li class="sale__item">Сафари в парке Яла</li>
-                        <li class="sale__item">Форт Галле</li><br>
-                        <li class="sale__item">Программа тура может меняться, следите за изменениями</li><br>
-                        <li class="sale__item">После экскурсионной программы  вы приедете в отель на берегу Индийского океана.</li><br>
-                        <li class="sale__item">Стоимость на человека в двухместном номере с проживанием в отеле 5* и питанием завтрак и ужин -127000 рублей </li>
-                      </ul>
-                      <h4 class="sale__subtitle">ЧТО ВХОДИТ В СТОИМОСТЬ:</h4>
-                      <ul class="sale__list">
-                        <li class="sale__item">- Перелет а/к Air Arabia багаж 20 кг, ручная кладь 10 кг. Питание не включено.</li>
-                        <li class="sale__item">- Размещение в отелях на базе НВ</li>
-                        <li class="sale__item">- Трансферы на кондиционируемом транспорте в сопровождении русскоговорящего гида</li>
-                        <li class="sale__item">- Входные билеты по программе</li>
-                        <li class="sale__item">- Государственный налог</li>
-                      </ul>
-                      <h4 class="sale__subtitle">ДОПОЛНИТЕЛЬНО ОПЛАЧИВАЕТСЯ:</h4>
-                      <ul class="sale__list">
-                        <li class="sale__item">- Обеды</li>
-                        <li class="sale__item">- Разрешение на видео и фото съемку</li>
-                        <li class="sale__item">- Личные расходы</li>
-                      </ul>
-                      <h4 class="sale__subtitle">Программа тура по дням</h4>
-                      <ul class="sale__list">
-                        <li class="sale__item">ДЕНЬ 0 – 21.02 Вылет</li>
-                        <li class="sale__item">Вылет из Домодедово в 14:45</li>
-                        <li class="sale__item">ДЕНЬ 01 - 22.02</li>
-                        <li class="sale__item">Прилет в 04:15. По прибытию в Международный аэропорт Бандаранаике теплая встреча и традиционное приветствие представителя принимающей компании. Трансфер в отель Acme Grand 4* в Хабаране.</li>
-                        <li class="sale__item">По пути посещение Питомника  Слонов в Пиннавеле  основан  в 1975 году. На момент основания питомника, здесь находилось всего лишь 7 слонят. Сегодня здесь насчитывается около 80 слонов. Первоначально, идея создания питомника в большей степени склонялась к туризму, но вскоре питомник стал   лучшим образовательным центром и центром по охране слонов. С помощью местных и зарубежных специалистов, питомник в Пиннавеле является частью научной программы по разведению слонов в неволе. В 1984 году здесь родился первый слонёнок. История успеха питомника Пиннавела привлекла внимание ученых со всего мира. Огромное число книг и научных статей о Пиннавеле были опубликованы на многих языках мира.</li>
-                        <li class="sale__item">Ужин в отеле</li>
-                        <li class="sale__item">ДЕНЬ 02 – 23.02</li>
-                        <li class="sale__item">Сигирия  -  это живописнейшая гора находится в центре острова и представляет собой одну из главных достопримечательностей Шри-Ланки. Здесь на высоте 200 м сохранились остатки дворца конца 5 века. Король Касапа в 5 веке построил город-дворец на вершине скалы, окруженной садами с бассейнами и фонтанами. На вершине скалы сохранились гигантский трон, водоем, “Зеркальная стена”, но главная достопримечательность дворца – галерея, одну из ее стен украшали около 500 фресок с изображением полуобнаженных женщин, но до наших дней сохранились лишь некоторые из них.</li>
-                        <li class="sale__item">Трансфер в Дамбуллу и посещение Сада специй в Матале.   Пещерный Храм Дамбулла был основан по приказу короля Валагамбаху   в I вв. до н.э. и является объектом мирового наследия ЮНЕСКО.  Храм, состоит из пяти пещер и известен самым большим собранием статуй Будды (некоторым из них свыше 2000 лет). Цветные фрески украшают потолок и стены храма, здесь отображены главные моменты жизни Будды.</li>
-                        <li class="sale__item">Сада Специй в Матале, где Вы сможете увидеть различные виды специй растущих на Шри Ланке. Здесь Вы сможете наблюдать за ростом специй, и узнаете много интересной информации о процессе обработки и дальнейшего изготовления аюрведической продукции.</li>
-                        <li class="sale__item">После обеда,  отправляемся на поиски 8-мого чуда света – крепости Сигирия.</li>
-                        <li class="sale__item">Обзорная экскурсия в  Канди с посещением  Храма Священного Зуба Будды.</li>
-                        <li class="sale__item">Канди являлась последней столицей Ланкийских королей. В 1815 году, город был захвачен англичанами, которые установили здесь власть Британской короны.</li>
-                        <li class="sale__item">В центре города расположено искусственное озеро, неподалеку находится – храм Далада Малигава , где хранится Священный Зуб Будды.</li>
-                        <li class="sale__item">Вечером вас ждем увлекательное   культурное шоу национальных танцев.</li><br>
-                        <li class="sale__item">Ужин и ночь в отеле Swiss Residence в Канди.</li>
-                        <li class="sale__item">ДЕНЬ 03 – 24.02</li>
-                        <li class="sale__item">После завтрака трансфер в Нувара Элия . По дороге посещение Королевского ботанического сада в Перадении.</li>
-                        <li class="sale__item">Завтрак в отеле. Трасфер в регион Нувара Элия. По дороге посещение Королевского Ботанического сада в Перадении.</li>
-                        <li class="sale__item">Сад в Перадении является самым большим садом в Юго-Восточной Азии.</li>
-                        <li class="sale__item">Он был основан одним из сингальских королей и позже расширен во время правления англичан. На площади в 147 акров Вы сможете увидеть множество более 4000 т. разнообразных деревьев, растений и цветов, в том числе и редкие виды пальм, более 100 видов орхидей.</li>
-                        <li class="sale__item">После обеда обзорная экскурсия по городу Нувара Элия.  Остановки у водопадов . Посещение фабрики по производству чая и чайные плантации.</li>
-                        <li class="sale__item">Мягкий  благоприятный климат (среднегодовая температура +15 - +20 градусов), живописные луга и долины, горные пейзажи – все это сделало Нувара Элиию  очень популярным курортом. Нувара  Элию называют «Маленькая  Англия». Отличная  18-луночная площадка для игры в гольф – одна из лучших в Юго-Восточной Азии – во всем мире известна истинным любителям этого вида спорта. В центре города расположен Парк Виктория, очаровательное место для пикника и отдыха. Южнее парка - ипподром, где проходят лошадиные бега в апреле. Озеро Грегори, южнее ипподрома, одна из достопримечательностей города.</li><br>
-                        <li class="sale__item">Ужин и ночь в отеле Stamford Star 3* в Нувара Элия</li>
-                        <li class="sale__item">ДЕНЬ 04 – 25.02</li>
-                        <li class="sale__item">После завтрака трансфер в Яла.  По дороге посещение региона Элла.</li>
-                        <li class="sale__item">Элла - тихий городок, который привлекает туристов своим прохладным климатом и живописной природой в самом сердце страны. Погруженный в древнюю легенду о Раме и Сите из индийского эпоса - Рамаяны, наиболее значимые природные достопримечательности названы в честь короля Раваны - местного бога, который похитил принцессу Ситу.  Множество мест, связанных с легендой, которые обязательно стоит посетить. Это и каскадный водопад Равана Элла которых захватывает дух и большое количество гор возвышающихся над городком и горный перевал, известный как Ella Gap, откуда можно увидеть захватывающий вид на долины до самого южного побережья. Маленький городок Элла по-настоящему очаровательная и красивая гавань, чтобы провести несколько расслабляющих дней и вдохнуть свежего горного воздуха  наслаждаясь  незабываемыми  видами.</li><br>
-                        <li class="sale__item">Ужин и ночь в отеле Oak Ray Wild в Яла.</li>
-                        <li class="sale__item">ДЕНЬ 05 – 26.02</li>
-                        <li class="sale__item">Ранним утром Джип сафари в парке Яла (05.30 – 09.30 утра)</li><br>
-                        <li class="sale__item">Яла один из старейших парков страны и самый крупный. Стал заповедником в 1900 году и национальным парком в 1938 году. Основную территорию парка занимает лес, остальную площадь – пастбища, водоемы и мангровые заросли. Стада слонов, диких буйволов, кабанов, пятнистых оленей видны повсюду.</li>
-                        <li class="sale__item">Здесь также обитает несколько видов лесных кошек, леопард, мангусты, обезьяны, вараны , крокодилы и множество рептилий.</li>
-                        <li class="sale__item">Яла является домом для 44 разновидностей млекопитающих и 215 видов птиц , а так же самой большой  в мире концентрацией  леопардов. </li>
-                        <li class="sale__item">Возвращение в отель , завтрак.  После завтрака переезд в отель на побережье .  1600 км прекрасных пляжей предлагает туристам Шри-Ланка, это идеальное место для спокойного и уединенного отдыха , а так же для занятий спортом.  Виндсерфинг, серфинг,  яхтинг, водные лыжи, подводное плавание или снорклинг. Все это и многое другое ждет туристов на бескрайних пляжах.</li>
-                        <li class="sale__item">По дороге посещение форта Галле.</li><br>
-                        <li class="sale__item">Форт Галле  -  До 19 века этот город процветал как главный торговый порт острова. Еще 2000 лет назад арабские купцы останавливались в Галле, путешествуя между Аравией и Китаем. И хотя историки утверждают, что португальцы были первыми европейцами, сошедшими  на остров (к 1587 году они построили крепость), заслуга в создании города Галле все-таки принадлежит голландцам. В 1640 г. крепость заняли голландцы и построили форт, который и сейчас находится в прекрасном состоянии. Форт привлекает туристов со всего мира. При входе в порт над воротами вырезан щит с монограммой Ост-Индской компании – изображениями петуха и льва. Гуляя по территории Форта, туристы любуются зданиями голландской архитектуры 17 века.</li>
-                        <li class="sale__item">Переезд в отель на побережье.</li><br>
-                        <li class="sale__item">27.02 – 03.03</li>
-                        <li class="sale__item">Отдых на берегу океана в отеле Radisson Blu Galle 5* - все номера с видом на океан</li>
-                        <li class="sale__item">03.03</li>
-                        <li class="sale__item">Вылет домой</li>
+                        <li class="sale__item">— 1 день: отправление, ночной переезд;</li>
+                        <li class="sale__item">— 2 день:</li>
+                        <li class="sale__item">— прибытие в пос. Каменномостский ориентировочно в 10:00;</li>
+                        <li class="sale__item">— завтрак в кафе;</li>
+                        <li class="sale__item">— обзорная экскурсия по пос. Каменномостскому. Второе название поселка (не официальное, но широко известное) — Хаджох. Так назывался небольшой горный аул, расположенный на месте современного поселка Каменномостский до Кавказской войны. А истории и легенды об этих местах появились гораздо раньше;</li>
+                        <li class="sale__item">— экскурсия в Хаджохскую теснину. Там река Белая умещается в 3–5 метровый проем;</li>
+                        <li class="sale__item">— пешеходная экскурсия в Хаджохскую теснину, образованную в толще известняка 120 миллионов лет назад, именуемую иначе Каменномостским каньоном. Там просматриваются древние подземные русла. Длина теснины — около 400 метров;</li>
+                        <li class="sale__item">— далее — отправление в горы любоваться панорамами отрогов Главного Кавказского, Большого Скалистого хребтов, знаменитого плато Лаго-Наки. Плато Лаго-Наки — это часть Кавказского государственного биосферного заповедника. Славится это место красотой альпийских лугов и обилием реликтов и эндемиков. Это биосферный полигон, где на одном квадратном метре встречается до ста видов растений. Цветение там происходит с ранней весны до поздней осени. Особенно необыкновенно выглядит плато в начале лета, когда температура воздуха повышается днем до +25, а в это время еще лежит снег и уже цветут яркие цветы;</li>
+                        <li class="sale__item">— завершается путешествие в горы посещением памятника природы — Большой Азишской пещеры. В пещерах нагорья Лаго-Наки круглый год царит особый микроклимат и температура воздуха — +4/+6. В советские годы рядом с этой пещерой работала здравница, которая успешно практиковала спелеолечение для людей, страдающих астмой, аллергией и другими заболеваниями дыхательных органов. Входные билеты оплачиваются на месте, ориентировочная стоимость — 600 руб./чел.;</li>
+                        <li class="sale__item">— поздний обед;</li>
+                        <li class="sale__item">— заселение на базу отдыха;</li>
+                        <li class="sale__item">— отправление на термальный источник «АкваТермо»;</li>
+                        <li class="sale__item">— прибытие на источник «АкваТермо» — бассейны под открытым небом для вас и ваших детей. Три термальных бассейна, два из которых для взрослых и один — детский. Все бассейны имеют гидромассажные водные установки, которые позволят вам в полной мере расслабиться. Каждый из бассейнов окружен шезлонгам и оснащен многоуровневой системой очистки термальной воды. Пребывание в источнике — 1 час;</li>
+                        <li class="sale__item">— возвращение, свободное время;</li>
+                        <li class="sale__item">— 3 день:</li>
+                        <li class="sale__item">— завтрак в кафе города;</li>
+                        <li class="sale__item">— экскурсия в Свято-Михайловский-Афонский монастырь (мужской). Самая высокогорная обитель России. Покровитель — Архистратиг Михаил. Четыре действующих храма, три скита (Хамышки, Сахрай, Береговое). Рядом, на вершине горы, ведутся раскопки возведенной еще до прихода монголов базилики. Монастырь стоит над сложной системой пещер, что вырыты скрывавшимися от ересиархов иконоборцев византийскими монахами (VIII–IX века). Экскурсия в древневизантийский пещерный монастырь — по желанию, с благословения настоятеля. Стоимость — ориентировочно 100 руб./чел. (в 2017 году пещеры сильно пострадали от наводнения, для просмотра открыт только один зал и две маленькие кельи). Вереница паломников и туристов движется по выложенным плиткой узким дорожкам к горе Физиабго. На вершине горы бьет родник Святого великомученика и целителя Пантелеимона. Люди наполняют водою емкости, пьют из стоящих у родника алюминиевых кружек, ставят свечки в часовенке. По свойствам эта вода напоминает крещенскую — она долго остается свежей и приятной на вкус. Источник обустроен двумя купальнями: Монашеской и общей;</li>
+                        <li class="sale__item">— обед в кафе города;</li>
+                        <li class="sale__item">— свободное время;</li>
+                        <li class="sale__item">— дополнительно (по желанию, оплата на месте): катание на джипах по смотровым площадкам — от 1200 руб./чел., конные прогулки — от 800 руб./чел.;</li>
+                        <li class="sale__item">— 4 день:</li>
+                        <li class="sale__item">— завтрак в кафе города;</li>
+                        <li class="sale__item">— освобождение номеров, отъезд на экскурсионную программу с вещами;</li>
+                        <li class="sale__item">— путешествие по горной дороге до пос. Гузерипль, который расположен на границе с Кавказским заповедником. Дорога до самого Гузерипля тянется по берегу горной реки. В пути вы осмотрите несколько памятников природы, таких как Гранитный каньон, гора Трезубуц, гора Монах. Посетите «место силы» — мегалитический комплекс в селе Хамышки, где увидите жертвенные камни, менгиры и очень редкий, корытообразный дольмен. А добравшись до Гузерипля, зайдете в заповедник, где увидите один из самых крупных и хорошо сохранившихся дольменов Адыгеи — небольшой вольерный комплекс, в котором содержатся эндемичные жители Кавказского государственного биосферного заповедника, а также посетите современный музей природы заповедника. Если позволит погода, то возможен подъем на канатной дороге на хребет Уна-Коз, откуда открываются обширные панорамы и в шаговой доступности — Грот желаний. Далее поход в гости к настоящим адыгам. Адыги — это коренной народ республики Адыгея. Много чем славится этот народ. Среди адыгов много именитых спортсменов, ювелиров, оружейников, людей искусства. Это народ с богатой историей, культурой и традициями, которые адыги соблюдают до сих пор. Одной из главных традиций является гостеприимство. Будет возможность ощутить все тонкости этого обычая на себе. В гостях вас не только встретят согласно обычаю, но также вы многое узнаете об этом народе, увидите традиционное убранство дома, а также вас ждет обед из блюд национальной кухни, по всем правилам адыгейского этикета;</li>
+                        <li class="sale__item">— завершение экскурсионной программы. Отъезд. Ночной переезд;</li>
+                        <li class="sale__item">— 5 день: возвращение (ориентировочно): 14:00 — Тула, и далее: Калуга, Обнинск, Москва.</li><br>
+                        <li class="sale__item">В стоимость входит:</li>
+                        <li class="sale__item">— транспортное обслуживание по программе;</li>
+                        <li class="sale__item">— проживание в выбранной гостинице;</li>
+                        <li class="sale__item">— питание по программе: 3 завтрака, 3 обеда;</li>
+                        <li class="sale__item">— Хаджохская теснина, плато Лаго-Наки, купание в термальных источниках, Свято-Михайловский-Афонский монастырь, Гранитный каньон, гора Трезубуц, гора Монах, мастер-класс «В гости к адыгам»;</li>
+                        <li class="sale__item">— услуги гида-экскурсовода;</li>
+                        <li class="sale__item">— групповая страховка от несчастного случая.</li><br>
+                        <li class="sale__item">Возможные доплаты: услуги и экскурсии с пометкой «Дополнительно» (по желанию в свободное время):</li>
+                        <li class="sale__item">— Азишская пещера — 600 руб./чел..</li>
                       </ul>
                     </div>
-                    <div class="modal-footer">
+                    <div class="modal-footer card-footer">
                       <a href="https://wa.me/+79057902382" target="_blank" class="btn sale__btn-color btn__sale">Забронировать</a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card">
+          </li>
+          <li class="card">
             <img src="./img/sale/Krym.jpg" class="card-img-top card__height" alt="Ласточкино гнездо в Крыму">
             <div class="card-body">
               <h5 class="card-title">Крым на каникулы</h5>
@@ -134,7 +109,7 @@
                 <div class="modal-dialog modal-dialog-scrollable">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="staticBackdropLabel">Маршрут тура:</h5>
+                      <h5 class="modal-title" id="staticBackdropLabel2">Маршрут тура:</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -203,8 +178,8 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card">
+          </li>
+          <li class="card">
             <img src="./img/sale/dagestan.jpg" class="card-img-top card__height" alt="природа в Дагестане">
             <div class="card-body">
               <h5 class="card-title">Дагестан</h5>
@@ -220,7 +195,7 @@
                 <div class="modal-dialog modal-dialog-scrollable">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="staticBackdropLabel">Маршрут тура:</h5>
+                      <h5 class="modal-title" id="staticBackdropLabel3">Маршрут тура:</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -302,8 +277,8 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card">
+          </li>
+          <li class="card">
             <img src="./img/sale/Piter.jpg" class="card-img-top card__height" alt="Питер">
             <div class="card-body">
               <h5 class="card-title">Санкт-Петербург</h5>
@@ -321,7 +296,7 @@
                 <div class="modal-dialog modal-dialog-scrollable">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="staticBackdropLabel">Маршрут тура:</h5>
+                      <h5 class="modal-title" id="staticBackdropLabel4">Маршрут тура:</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -430,8 +405,8 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card">
+          </li>
+          <li class="card">
             <img src="./img/sale/Karelia.jpg" class="card-img-top card__height" alt="природа в Карелии">
             <div class="card-body">
               <h5 class="card-title">Карелия автобусом</h5>
@@ -445,7 +420,7 @@
                 <div class="modal-dialog modal-dialog-scrollable">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="staticBackdropLabel">Маршрут тура:</h5>
+                      <h5 class="modal-title" id="staticBackdropLabel5">Маршрут тура:</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -524,13 +499,13 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card">
+          </li>
+          <li class="card">
             <img src="./img/sale/Belarus.jpg" class="card-img-top card__height" alt="Зимний салют">
             <div class="card-body">
               <h5 class="card-title">Белоруссия на Новый год</h5>
               <p class="card-text">Стоимость: от 21 900 руб/чел</p>
-              <p class="card-text">Заезд: 30.12.22.</p>
+              <p class="card-text">Заезд: 30.12.2022.</p>
               <p class="card-text">Продолжительность: 5 дней / 4 ночи.</p>
               <button type="button" class="btn sale__btn-color" data-toggle="modal" data-target="#exampleModal6">Подробнее</button>
 
@@ -539,7 +514,7 @@
                 <div class="modal-dialog modal-dialog-scrollable">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="staticBackdropLabel">Маршрут тура:</h5>
+                      <h5 class="modal-title" id="staticBackdropLabel6">Маршрут тура:</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -563,13 +538,13 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card">
+          </li>
+          <li class="card">
             <img src="./img/sale/Belarus2.jpg" class="card-img-top card__height" alt="Дед мороз и снегурочка">
             <div class="card-body">
               <h5 class="card-title">Автобусный экскурсионный тур в Белоруссию на Рождество</h5>
               <p class="card-text">Стоимость: от 23 900 руб/чел</p>
-              <p class="card-text">Заезд: 04.01.23.</p>
+              <p class="card-text">Заезд: 04.01.2023.</p>
               <p class="card-text">Продолжительность: 5 дней / 4 ночи.</p>
               <button type="button" class="btn sale__btn-color" data-toggle="modal" data-target="#exampleModal7">Подробнее</button>
 
@@ -578,7 +553,7 @@
                 <div class="modal-dialog modal-dialog-scrollable">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="staticBackdropLabel">Маршрут тура:</h5>
+                      <h5 class="modal-title" id="staticBackdropLabel7">Маршрут тура:</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -600,13 +575,13 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card">
+          </li>
+          <li class="card">
             <img src="./img/sale/silver-ring.jpg" class="card-img-top card__height" alt="Лошадь зимой на фоне храма">
             <div class="card-body">
               <h5 class="card-title">Рождественские каникулы на серебряном кольце</h5>
               <p class="card-text">Стоимость: от 16 600 руб/чел</p>
-              <p class="card-text">Заезд: 05.01.23.</p>
+              <p class="card-text">Заезд: 05.01.2023.</p>
               <p class="card-text">Продолжительность: 4 дня / 3 ночи.</p>
               <button type="button" class="btn sale__btn-color" data-toggle="modal" data-target="#exampleModal8">Подробнее</button>
 
@@ -615,7 +590,7 @@
                 <div class="modal-dialog modal-dialog-scrollable">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="staticBackdropLabel">Маршрут тура:</h5>
+                      <h5 class="modal-title" id="staticBackdropLabel8">Маршрут тура:</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -639,13 +614,13 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card">
+          </li>
+          <li class="card">
             <img src="./img/sale/suzdal.jpg" class="card-img-top card__height" alt="природа в Карелии">
             <div class="card-body">
               <h5 class="card-title">Зимняя сказка Древней Руси на Рождество</h5>
               <p class="card-text">Стоимость: от 15 200 руб/чел</p>
-              <p class="card-text">06.01.23 - 07.01.23.</p>
+              <p class="card-text">06.01.2023 - 07.01.2023.</p>
               <button type="button" class="btn sale__btn-color" data-toggle="modal" data-target="#exampleModal9">Подробнее</button>
 
               <!-- Модальное окно -->
@@ -653,7 +628,7 @@
                 <div class="modal-dialog modal-dialog-scrollable">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="staticBackdropLabel">Маршрут тура:</h5>
+                      <h5 class="modal-title" id="staticBackdropLabel9">Маршрут тура:</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -677,13 +652,13 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card">
+          </li>
+          <li class="card">
             <img src="./img/sale/IMG7572.jpg" class="card-img-top card__height" alt="Зимние узоры Верхневолжья">
             <div class="card-body">
               <h5 class="card-title">Зимние узоры Верхневолжья на Рождество</h5>
               <p class="card-text">Стоимость: от 14 900 руб/чел</p>
-              <p class="card-text">04.01.23 - 05.01.23.</p>
+              <p class="card-text">04.01.2023 - 05.01.2023.</p>
               <button type="button" class="btn sale__btn-color" data-toggle="modal" data-target="#exampleModal10">Подробнее</button>
 
               <!-- Модальное окно -->
@@ -691,7 +666,7 @@
                 <div class="modal-dialog modal-dialog-scrollable">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="staticBackdropLabel">Маршрут тура:</h5>
+                      <h5 class="modal-title" id="staticBackdropLabel10">Маршрут тура:</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -715,13 +690,13 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card">
+          </li>
+          <li class="card">
             <img src="./img/sale/IMG7573.jpg" class="card-img-top card__height" alt="Горы Кавказа">
             <div class="card-body">
               <h5 class="card-title">Новогодняя магия Кавказа на Рождество</h5>
               <p class="card-text">Стоимость: от 21 700 руб/чел</p>
-              <p class="card-text">03.01.23 - 07.01.23.</p>
+              <p class="card-text">03.01.2023 - 07.01.2023.</p>
               <button type="button" class="btn sale__btn-color" data-toggle="modal" data-target="#exampleModal11">Подробнее</button>
 
               <!-- Модальное окно -->
@@ -729,7 +704,7 @@
                 <div class="modal-dialog modal-dialog-scrollable">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="staticBackdropLabel">Маршрут тура:</h5>
+                      <h5 class="modal-title" id="staticBackdropLabel11">Маршрут тура:</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -750,13 +725,13 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card">
+          </li>
+          <li class="card">
             <img src="./img/sale/mountains.jpg" class="card-img-top card__height" alt="Горнолыжный спуск">
             <div class="card-body">
               <h5 class="card-title">Горнолыжное сафари в горах Западного Тянь-Шаня: Амирсой-Чимган-Бельдерсай</h5>
               <p class="card-text">Стоимость: от 66 000 руб/чел</p>
-              <p class="card-text">Заезд: 29.01.23</p>
+              <p class="card-text">Заезд: 29.01.2023.</p>
               <p class="card-text">Продолжительность: 10 дней / 9 ночей.</p>
               <button type="button" class="btn sale__btn-color" data-toggle="modal" data-target="#exampleModal12">Подробнее</button>
 
@@ -765,7 +740,7 @@
                 <div class="modal-dialog modal-dialog-scrollable">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="staticBackdropLabel">Маршрут тура:</h5>
+                      <h5 class="modal-title" id="staticBackdropLabel12">Маршрут тура:</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -826,76 +801,526 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card">
-            <img src="./img/sale/adygheya.jpg" class="card-img-top card__height" alt="природа в Адыгеи">
+          </li>
+          <li class="card">
+            <img src="./img/sale/sri-lanka.jpg" class="card-img-top card__height" alt="Чайные плантации">
             <div class="card-body">
-              <h5 class="card-title">Адыгея на каникулы</h5>
-              <p class="card-text">Стоимость: от 23 700 руб/чел</p>
-              <p class="card-text">Заезд: 02.01.2023.</p>
-              <p class="card-text">Продолжительность: 5 дней / 4 ночи.</p>
-              <button type="button" class="btn sale__btn-color" data-toggle="modal" data-target="#exampleModal1">Подробнее</button>
+              <h5 class="card-title">Февральские каникулы на Шри-Ланке: экскурсии + отдых</h5>
+              <p class="card-text">Стоимость: от 127 000 руб/чел</p>
+              <p class="card-text">21.02.2023 - 03.03.2023.</p>
+              <button type="button" class="btn sale__btn-color" data-toggle="modal" data-target="#exampleModal13">Подробнее</button>
 
               <!-- Модальное окно -->
-              <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-scrollable">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="staticBackdropLabel">Маршрут тура:</h5>
+                      <h5 class="modal-title" id="staticBackdropLabel13">Маршрут тура:</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
                     <div class="modal-body">
-                      <h3 class="sale__title">Каменномостский — Хаджохская теснина — плато Лаго-Наки — Большая Азишская пещера — термальный источник «АкваТермо» — Свято-Михайловский-Афонский монастырь — Гузерипль — Гранитный каньон — гора Монах — национальный мастер-класс.</h3>
+                      <h3 class="sale__title">Отпуск на Шри-Ланке - это не только отдых на океане, но и незабываемая экскурсионная программа!</h3>
                       <h4 class="sale__subtitle">Программа тура:</h4>
                       <ul class="sale__list">
-                        <li class="sale__item">— 1 день: отправление, ночной переезд;</li>
-                        <li class="sale__item">— 2 день:</li>
-                        <li class="sale__item">— прибытие в пос. Каменномостский ориентировочно в 10:00;</li>
-                        <li class="sale__item">— завтрак в кафе;</li>
-                        <li class="sale__item">— обзорная экскурсия по пос. Каменномостскому. Второе название поселка (не официальное, но широко известное) — Хаджох. Так назывался небольшой горный аул, расположенный на месте современного поселка Каменномостский до Кавказской войны. А истории и легенды об этих местах появились гораздо раньше;</li>
-                        <li class="sale__item">— экскурсия в Хаджохскую теснину. Там река Белая умещается в 3–5 метровый проем;</li>
-                        <li class="sale__item">— пешеходная экскурсия в Хаджохскую теснину, образованную в толще известняка 120 миллионов лет назад, именуемую иначе Каменномостским каньоном. Там просматриваются древние подземные русла. Длина теснины — около 400 метров;</li>
-                        <li class="sale__item">— далее — отправление в горы любоваться панорамами отрогов Главного Кавказского, Большого Скалистого хребтов, знаменитого плато Лаго-Наки. Плато Лаго-Наки — это часть Кавказского государственного биосферного заповедника. Славится это место красотой альпийских лугов и обилием реликтов и эндемиков. Это биосферный полигон, где на одном квадратном метре встречается до ста видов растений. Цветение там происходит с ранней весны до поздней осени. Особенно необыкновенно выглядит плато в начале лета, когда температура воздуха повышается днем до +25, а в это время еще лежит снег и уже цветут яркие цветы;</li>
-                        <li class="sale__item">— завершается путешествие в горы посещением памятника природы — Большой Азишской пещеры. В пещерах нагорья Лаго-Наки круглый год царит особый микроклимат и температура воздуха — +4/+6. В советские годы рядом с этой пещерой работала здравница, которая успешно практиковала спелеолечение для людей, страдающих астмой, аллергией и другими заболеваниями дыхательных органов. Входные билеты оплачиваются на месте, ориентировочная стоимость — 600 руб./чел.;</li>
-                        <li class="sale__item">— поздний обед;</li>
-                        <li class="sale__item">— заселение на базу отдыха;</li>
-                        <li class="sale__item">— отправление на термальный источник «АкваТермо»;</li>
-                        <li class="sale__item">— прибытие на источник «АкваТермо» — бассейны под открытым небом для вас и ваших детей. Три термальных бассейна, два из которых для взрослых и один — детский. Все бассейны имеют гидромассажные водные установки, которые позволят вам в полной мере расслабиться. Каждый из бассейнов окружен шезлонгам и оснащен многоуровневой системой очистки термальной воды. Пребывание в источнике — 1 час;</li>
-                        <li class="sale__item">— возвращение, свободное время;</li>
-                        <li class="sale__item">— 3 день:</li>
-                        <li class="sale__item">— завтрак в кафе города;</li>
-                        <li class="sale__item">— экскурсия в Свято-Михайловский-Афонский монастырь (мужской). Самая высокогорная обитель России. Покровитель — Архистратиг Михаил. Четыре действующих храма, три скита (Хамышки, Сахрай, Береговое). Рядом, на вершине горы, ведутся раскопки возведенной еще до прихода монголов базилики. Монастырь стоит над сложной системой пещер, что вырыты скрывавшимися от ересиархов иконоборцев византийскими монахами (VIII–IX века). Экскурсия в древневизантийский пещерный монастырь — по желанию, с благословения настоятеля. Стоимость — ориентировочно 100 руб./чел. (в 2017 году пещеры сильно пострадали от наводнения, для просмотра открыт только один зал и две маленькие кельи). Вереница паломников и туристов движется по выложенным плиткой узким дорожкам к горе Физиабго. На вершине горы бьет родник Святого великомученика и целителя Пантелеимона. Люди наполняют водою емкости, пьют из стоящих у родника алюминиевых кружек, ставят свечки в часовенке. По свойствам эта вода напоминает крещенскую — она долго остается свежей и приятной на вкус. Источник обустроен двумя купальнями: Монашеской и общей;</li>
-                        <li class="sale__item">— обед в кафе города;</li>
-                        <li class="sale__item">— свободное время;</li>
-                        <li class="sale__item">— дополнительно (по желанию, оплата на месте): катание на джипах по смотровым площадкам — от 1200 руб./чел., конные прогулки — от 800 руб./чел.;</li>
-                        <li class="sale__item">— 4 день:</li>
-                        <li class="sale__item">— завтрак в кафе города;</li>
-                        <li class="sale__item">— освобождение номеров, отъезд на экскурсионную программу с вещами;</li>
-                        <li class="sale__item">— путешествие по горной дороге до пос. Гузерипль, который расположен на границе с Кавказским заповедником. Дорога до самого Гузерипля тянется по берегу горной реки. В пути вы осмотрите несколько памятников природы, таких как Гранитный каньон, гора Трезубуц, гора Монах. Посетите «место силы» — мегалитический комплекс в селе Хамышки, где увидите жертвенные камни, менгиры и очень редкий, корытообразный дольмен. А добравшись до Гузерипля, зайдете в заповедник, где увидите один из самых крупных и хорошо сохранившихся дольменов Адыгеи — небольшой вольерный комплекс, в котором содержатся эндемичные жители Кавказского государственного биосферного заповедника, а также посетите современный музей природы заповедника. Если позволит погода, то возможен подъем на канатной дороге на хребет Уна-Коз, откуда открываются обширные панорамы и в шаговой доступности — Грот желаний. Далее поход в гости к настоящим адыгам. Адыги — это коренной народ республики Адыгея. Много чем славится этот народ. Среди адыгов много именитых спортсменов, ювелиров, оружейников, людей искусства. Это народ с богатой историей, культурой и традициями, которые адыги соблюдают до сих пор. Одной из главных традиций является гостеприимство. Будет возможность ощутить все тонкости этого обычая на себе. В гостях вас не только встретят согласно обычаю, но также вы многое узнаете об этом народе, увидите традиционное убранство дома, а также вас ждет обед из блюд национальной кухни, по всем правилам адыгейского этикета;</li>
-                        <li class="sale__item">— завершение экскурсионной программы. Отъезд. Ночной переезд;</li>
-                        <li class="sale__item">— 5 день: возвращение (ориентировочно): 14:00 — Тула, и далее: Калуга, Обнинск, Москва.</li><br>
-                        <li class="sale__item">В стоимость входит:</li>
-                        <li class="sale__item">— транспортное обслуживание по программе;</li>
-                        <li class="sale__item">— проживание в выбранной гостинице;</li>
-                        <li class="sale__item">— питание по программе: 3 завтрака, 3 обеда;</li>
-                        <li class="sale__item">— Хаджохская теснина, плато Лаго-Наки, купание в термальных источниках, Свято-Михайловский-Афонский монастырь, Гранитный каньон, гора Трезубуц, гора Монах, мастер-класс «В гости к адыгам»;</li>
-                        <li class="sale__item">— услуги гида-экскурсовода;</li>
-                        <li class="sale__item">— групповая страховка от несчастного случая.</li><br>
-                        <li class="sale__item">Возможные доплаты: услуги и экскурсии с пометкой «Дополнительно» (по желанию в свободное время):</li>
-                        <li class="sale__item">— Азишская пещера — 600 руб./чел..</li>
+                        <li class="sale__item">Экскурсионный тур по самым красивым местам острова + отдых на океане в  прекрасном отеле</li><br>
+                        <li class="sale__item">5 дней впечатляющих приключений:</li>
+                        <li class="sale__item">Питомник  Слонов в Пиннавеле</li>
+                        <li class="sale__item">Пещерный храм Дамбулла</li>
+                        <li class="sale__item">Посещение Сада специй</li>
+                        <li class="sale__item">Подъем на Сигирию (главная достопримечательность Шри-Ланки)</li>
+                        <li class="sale__item">Храм Канди</li>
+                        <li class="sale__item">Ботанический сад в Перадении</li>
+                        <li class="sale__item">Чайные плантации Нувара Элия</li>
+                        <li class="sale__item">Город Элла</li>
+                        <li class="sale__item">Сафари в парке Яла</li>
+                        <li class="sale__item">Форт Галле</li><br>
+                        <li class="sale__item">Программа тура может меняться, следите за изменениями</li><br>
+                        <li class="sale__item">После экскурсионной программы  вы приедете в отель на берегу Индийского океана.</li><br>
+                        <li class="sale__item">Стоимость на человека в двухместном номере с проживанием в отеле 5* и питанием завтрак и ужин -127000 рублей </li>
+                      </ul>
+                      <h4 class="sale__subtitle">ЧТО ВХОДИТ В СТОИМОСТЬ:</h4>
+                      <ul class="sale__list">
+                        <li class="sale__item">- Перелет а/к Air Arabia багаж 20 кг, ручная кладь 10 кг. Питание не включено.</li>
+                        <li class="sale__item">- Размещение в отелях на базе НВ</li>
+                        <li class="sale__item">- Трансферы на кондиционируемом транспорте в сопровождении русскоговорящего гида</li>
+                        <li class="sale__item">- Входные билеты по программе</li>
+                        <li class="sale__item">- Государственный налог</li>
+                      </ul>
+                      <h4 class="sale__subtitle">ДОПОЛНИТЕЛЬНО ОПЛАЧИВАЕТСЯ:</h4>
+                      <ul class="sale__list">
+                        <li class="sale__item">- Обеды</li>
+                        <li class="sale__item">- Разрешение на видео и фото съемку</li>
+                        <li class="sale__item">- Личные расходы</li>
+                      </ul>
+                      <h4 class="sale__subtitle">Программа тура по дням</h4>
+                      <ul class="sale__list">
+                        <li class="sale__item">ДЕНЬ 0 – 21.02 Вылет</li>
+                        <li class="sale__item">Вылет из Домодедово в 14:45</li>
+                        <li class="sale__item">ДЕНЬ 01 - 22.02</li>
+                        <li class="sale__item">Прилет в 04:15. По прибытию в Международный аэропорт Бандаранаике теплая встреча и традиционное приветствие представителя принимающей компании. Трансфер в отель Acme Grand 4* в Хабаране.</li>
+                        <li class="sale__item">По пути посещение Питомника  Слонов в Пиннавеле  основан  в 1975 году. На момент основания питомника, здесь находилось всего лишь 7 слонят. Сегодня здесь насчитывается около 80 слонов. Первоначально, идея создания питомника в большей степени склонялась к туризму, но вскоре питомник стал   лучшим образовательным центром и центром по охране слонов. С помощью местных и зарубежных специалистов, питомник в Пиннавеле является частью научной программы по разведению слонов в неволе. В 1984 году здесь родился первый слонёнок. История успеха питомника Пиннавела привлекла внимание ученых со всего мира. Огромное число книг и научных статей о Пиннавеле были опубликованы на многих языках мира.</li>
+                        <li class="sale__item">Ужин в отеле</li>
+                        <li class="sale__item">ДЕНЬ 02 – 23.02</li>
+                        <li class="sale__item">Сигирия  -  это живописнейшая гора находится в центре острова и представляет собой одну из главных достопримечательностей Шри-Ланки. Здесь на высоте 200 м сохранились остатки дворца конца 5 века. Король Касапа в 5 веке построил город-дворец на вершине скалы, окруженной садами с бассейнами и фонтанами. На вершине скалы сохранились гигантский трон, водоем, “Зеркальная стена”, но главная достопримечательность дворца – галерея, одну из ее стен украшали около 500 фресок с изображением полуобнаженных женщин, но до наших дней сохранились лишь некоторые из них.</li>
+                        <li class="sale__item">Трансфер в Дамбуллу и посещение Сада специй в Матале.   Пещерный Храм Дамбулла был основан по приказу короля Валагамбаху   в I вв. до н.э. и является объектом мирового наследия ЮНЕСКО.  Храм, состоит из пяти пещер и известен самым большим собранием статуй Будды (некоторым из них свыше 2000 лет). Цветные фрески украшают потолок и стены храма, здесь отображены главные моменты жизни Будды.</li>
+                        <li class="sale__item">Сада Специй в Матале, где Вы сможете увидеть различные виды специй растущих на Шри Ланке. Здесь Вы сможете наблюдать за ростом специй, и узнаете много интересной информации о процессе обработки и дальнейшего изготовления аюрведической продукции.</li>
+                        <li class="sale__item">После обеда,  отправляемся на поиски 8-мого чуда света – крепости Сигирия.</li>
+                        <li class="sale__item">Обзорная экскурсия в  Канди с посещением  Храма Священного Зуба Будды.</li>
+                        <li class="sale__item">Канди являлась последней столицей Ланкийских королей. В 1815 году, город был захвачен англичанами, которые установили здесь власть Британской короны.</li>
+                        <li class="sale__item">В центре города расположено искусственное озеро, неподалеку находится – храм Далада Малигава , где хранится Священный Зуб Будды.</li>
+                        <li class="sale__item">Вечером вас ждем увлекательное   культурное шоу национальных танцев.</li><br>
+                        <li class="sale__item">Ужин и ночь в отеле Swiss Residence в Канди.</li>
+                        <li class="sale__item">ДЕНЬ 03 – 24.02</li>
+                        <li class="sale__item">После завтрака трансфер в Нувара Элия . По дороге посещение Королевского ботанического сада в Перадении.</li>
+                        <li class="sale__item">Завтрак в отеле. Трасфер в регион Нувара Элия. По дороге посещение Королевского Ботанического сада в Перадении.</li>
+                        <li class="sale__item">Сад в Перадении является самым большим садом в Юго-Восточной Азии.</li>
+                        <li class="sale__item">Он был основан одним из сингальских королей и позже расширен во время правления англичан. На площади в 147 акров Вы сможете увидеть множество более 4000 т. разнообразных деревьев, растений и цветов, в том числе и редкие виды пальм, более 100 видов орхидей.</li>
+                        <li class="sale__item">После обеда обзорная экскурсия по городу Нувара Элия.  Остановки у водопадов . Посещение фабрики по производству чая и чайные плантации.</li>
+                        <li class="sale__item">Мягкий  благоприятный климат (среднегодовая температура +15 - +20 градусов), живописные луга и долины, горные пейзажи – все это сделало Нувара Элиию  очень популярным курортом. Нувара  Элию называют «Маленькая  Англия». Отличная  18-луночная площадка для игры в гольф – одна из лучших в Юго-Восточной Азии – во всем мире известна истинным любителям этого вида спорта. В центре города расположен Парк Виктория, очаровательное место для пикника и отдыха. Южнее парка - ипподром, где проходят лошадиные бега в апреле. Озеро Грегори, южнее ипподрома, одна из достопримечательностей города.</li><br>
+                        <li class="sale__item">Ужин и ночь в отеле Stamford Star 3* в Нувара Элия</li>
+                        <li class="sale__item">ДЕНЬ 04 – 25.02</li>
+                        <li class="sale__item">После завтрака трансфер в Яла.  По дороге посещение региона Элла.</li>
+                        <li class="sale__item">Элла - тихий городок, который привлекает туристов своим прохладным климатом и живописной природой в самом сердце страны. Погруженный в древнюю легенду о Раме и Сите из индийского эпоса - Рамаяны, наиболее значимые природные достопримечательности названы в честь короля Раваны - местного бога, который похитил принцессу Ситу.  Множество мест, связанных с легендой, которые обязательно стоит посетить. Это и каскадный водопад Равана Элла которых захватывает дух и большое количество гор возвышающихся над городком и горный перевал, известный как Ella Gap, откуда можно увидеть захватывающий вид на долины до самого южного побережья. Маленький городок Элла по-настоящему очаровательная и красивая гавань, чтобы провести несколько расслабляющих дней и вдохнуть свежего горного воздуха  наслаждаясь  незабываемыми  видами.</li><br>
+                        <li class="sale__item">Ужин и ночь в отеле Oak Ray Wild в Яла.</li>
+                        <li class="sale__item">ДЕНЬ 05 – 26.02</li>
+                        <li class="sale__item">Ранним утром Джип сафари в парке Яла (05.30 – 09.30 утра)</li><br>
+                        <li class="sale__item">Яла один из старейших парков страны и самый крупный. Стал заповедником в 1900 году и национальным парком в 1938 году. Основную территорию парка занимает лес, остальную площадь – пастбища, водоемы и мангровые заросли. Стада слонов, диких буйволов, кабанов, пятнистых оленей видны повсюду.</li>
+                        <li class="sale__item">Здесь также обитает несколько видов лесных кошек, леопард, мангусты, обезьяны, вараны , крокодилы и множество рептилий.</li>
+                        <li class="sale__item">Яла является домом для 44 разновидностей млекопитающих и 215 видов птиц , а так же самой большой  в мире концентрацией  леопардов. </li>
+                        <li class="sale__item">Возвращение в отель , завтрак.  После завтрака переезд в отель на побережье .  1600 км прекрасных пляжей предлагает туристам Шри-Ланка, это идеальное место для спокойного и уединенного отдыха , а так же для занятий спортом.  Виндсерфинг, серфинг,  яхтинг, водные лыжи, подводное плавание или снорклинг. Все это и многое другое ждет туристов на бескрайних пляжах.</li>
+                        <li class="sale__item">По дороге посещение форта Галле.</li><br>
+                        <li class="sale__item">Форт Галле  -  До 19 века этот город процветал как главный торговый порт острова. Еще 2000 лет назад арабские купцы останавливались в Галле, путешествуя между Аравией и Китаем. И хотя историки утверждают, что португальцы были первыми европейцами, сошедшими  на остров (к 1587 году они построили крепость), заслуга в создании города Галле все-таки принадлежит голландцам. В 1640 г. крепость заняли голландцы и построили форт, который и сейчас находится в прекрасном состоянии. Форт привлекает туристов со всего мира. При входе в порт над воротами вырезан щит с монограммой Ост-Индской компании – изображениями петуха и льва. Гуляя по территории Форта, туристы любуются зданиями голландской архитектуры 17 века.</li>
+                        <li class="sale__item">Переезд в отель на побережье.</li><br>
+                        <li class="sale__item">27.02 – 03.03</li>
+                        <li class="sale__item">Отдых на берегу океана в отеле Radisson Blu Galle 5* - все номера с видом на океан</li>
+                        <li class="sale__item">03.03</li>
+                        <li class="sale__item">Вылет домой</li>
                       </ul>
                     </div>
-                    <div class="modal-footer card-footer">
+                    <div class="modal-footer">
                       <a href="https://wa.me/+79057902382" target="_blank" class="btn sale__btn-color btn__sale">Забронировать</a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+          </li>
+          <li class="card">
+            <img src="./img/sale/Iran.jpg" class="card-img-top card__height" alt="Чайные плантации">
+            <div class="card-body">
+              <h5 class="card-title">Групповой гарантированный тур в Иран &laquo;Персидские мелодии&raquo;</h5>
+              <p class="card-text">Стоимость: от 112 000 руб/чел</p>
+              <p class="card-text">Заезд: 18.02.2023.</p>
+              <p class="card-text">Продолжительность: 9 дней / 8 ночей.</p>
+              <button type="button" class="btn sale__btn-color" data-toggle="modal" data-target="#exampleModal14">Подробнее</button>
+
+              <!-- Модальное окно -->
+              <div class="modal fade" id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel14">Маршрут тура:</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3 class="sale__title">Групповой гарантированный тур в Иран &laquo;Персидские мелодии&raquo;</h3>
+                      <h4 class="sale__subtitle">Программа тура:</h4>
+                      <ul class="sale__list">
+                        <li class="sale__item">1 день 18 февраля вылет</li>
+                        <li class="sale__item">Вылет из Москвы вечером (а/п Шереметьево),</li>
+                        <li class="sale__item">в 22:30, рейс SU514</li><br>
+                        <li class="sale__item">2 день 19 февраля обзорная экскурсия по Тегерану</li>
+                        <li class="sale__item">Прибытие в Тегеран в 03:10.</li>
+                        <li class="sale__item">Встреча в а/п и трансфер в отель для небольшого отдыха.</li>
+                        <li class="sale__item">Обзорная экскурсия по Тегерану.</li>
+                        <li class="sale__item">Начинаем экскурсию с посещения Музей ковров*, где помимо ковров из разных регионов страны можно увидеть исторические ковры, которым несколько столетий.</li>
+                        <li class="sale__item">Далее экскурсия продолжается посещением величественного дворцового комплекса Голестан. После этого продолжение экскурсии - посещение моста Табиат (самая протяженная пешеходная эстакада в Иране)</li>
+                        <li class="sale__item">Вечером вылет в Шираз. Размещение в отеле г.Шираз</li><br>
+                        <li class="sale__item">* Посещение музея ковров может быть заменен посещением Ювелирного музея.</li><br>
+                        <li class="sale__item">3 день 20 февраля обзорная экскурсия по Ширазу</li>
+                        <li class="sale__item">Завтрак в отеле.</li>
+                        <li class="sale__item">Обзорная экскурсия по Ширазу.</li>
+                        <li class="sale__item">Посещения мозаичной мечети Насир ол-Молк, исторического цитрусового сада Наранджестан и комплекса Зандие (крепость, древние бани Вакиль, базар Вакиль).</li>
+                        <li class="sale__item">После обеда посещение мавзолея великого Персидский поэт Хафез. Экскурсия заканчивается посещением храма Али ибн Хамзе.</li>
+                        <li class="sale__item">Размещение в отеле г.Шираз</li><br>
+                        <li class="sale__item">4 день 21 февраля Персеполис</li>
+                        <li class="sale__item">Переезд в Язд (441 км).</li>
+                        <li class="sale__item">Посещение Персеполис, который является, несомненно, одним из самых впечатляющих мест в Иране, имеющий значительные размеры и монументальные руины, был столицей империи Ахеменидов. Город был построен на огромной террасе, наполовину искусственной, наполовину естественной.</li>
+                        <li class="sale__item">Далее поездка в Нагше-Ростам, местности, которая известна огромными гробницами Персидских царей и скальными рельефами.</li>
+                        <li class="sale__item">Вечером прибытие в Язд. Прогулка по старому городу с его узкими улочками, в которых время, казалось, остановилось.</li><br>
+                        <li class="sale__item">Размещение и ночь в г.Язд</li><br>
+                        <li class="sale__item">5 день 22 февраля сад Довлат Абад</li>
+                        <li class="sale__item">Завтрак в отеле.</li>
+                        <li class="sale__item">Посещение Пятничной мечети (Jameh Mosque), где расположены два самых высоких минарета в Иране; сада Довлат Абад с самыми большими городскими бадгирами - оригинальные старинные кондиционеры; зороастрийского храма огня, хранящего 1500-летний огонь;</li>
+                        <li class="sale__item">башни Молчания - башни и площади Амир Чакмак.</li><br>
+                        <li class="sale__item">Ночь в г. Язд.</li><br>
+                        <li class="sale__item">6 день 23 февраля Исфахан</li>
+                        <li class="sale__item">Завтрак в отеле.</li>
+                        <li class="sale__item">После завтрака переезд в Исфахан (313 км).</li>
+                        <li class="sale__item">Посещение Ванкского собора (Собор Святого Христа Всеспасителя), расположенного в армянском квартале Джолфа, архитектура которого представляет собой смесь Христианских и мусульманских стилей.  Посещение Пятничной мечети, построенной в архитектурном стиле «четырех айванов», в котором четверо ворот расположены напротив друг друга. Прогулка по историческим мостам.</li>
+                        <li class="sale__item">Ночь в г.Исфахан</li><br>
+                        <li class="sale__item">7 день 24 февраля Дворец Чехель Сотун</li>
+                        <li class="sale__item">Утром, после завтрака, продолжение осмотра Исфахана.</li>
+                        <li class="sale__item">Начнем с одной из самых больших площадей в мире, Накш-э-Джахан.</li>
+                        <li class="sale__item">Посещение Имамской мечети, на оформление которой ушло полмиллиона мозаичных плиток; необычная мечеть Сейха Лотфолла, построенная без минарета и внутреннего двора; Дворец Али Капу, предназначенный для приема послов иностранных держав; базар, где можно купить оригинальные иранские изделия ручной работы и Дворец Чехель Сотун.</li>
+                        <li class="sale__item">Ночь в г.Исфахан.</li><br>
+                        <li class="sale__item">8 день 25 февраля деревня Абьяне</li>
+                        <li class="sale__item">Завтрак в отеле.</li>
+                        <li class="sale__item">Переезд в Кашан (215 км), город-оазис с многовековой историей. По пути посетите историческую горную деревню Абьяне с узкими улочками, по которым нельзя проехать на машине, и жителями, которые до сих пор говорят на своем диалекте и носят старую одежду.</li>
+                        <li class="sale__item">В Кашане особое внимание следует уделить большому персидскому саду Фин, с многочисленными прудами и каналами, который включен в список культурного наследия ЮНЕСКО. А также увидите один из традиционных особняков Боруджерди или Табатабаи, принадлежавших ранее купцам.</li><br>
+                        <li class="sale__item">Переезд в международный а/п Тегерана.</li><br>
+                        <li class="sale__item">Размещение в отеле при аэропорту.</li><br>
+                        <li class="sale__item">9 день 26 февраля вылет</li>
+                        <li class="sale__item">Вылет из Тегерана в 04:15, рейc SU515.</li>
+                        <li class="sale__item">Прибытие в Москву (а/п Шереметьево) в 07:55.</li>
+                      </ul>
+                      <ul class="sale__list">
+                        <h4 class="sale__subtitle">ЧТО ВХОДИТ В СТОИМОСТЬ:</h4>
+                        <li class="sale__item">- Авиабилет по маршруту Москва-Тегеран-Москва (а/к Аэрофлот), тариф с багажом;</li>
+                        <li class="sale__item">- Внутренний билет по маршруту Тегеран – Шираз;</li>
+                        <li class="sale__item">- Визовое приглашение;</li>
+                        <li class="sale__item">- Размещение в выбранных отелях по программе;</li>
+                        <li class="sale__item">- Русскоговорящий гид;</li>
+                        <li class="sale__item">- Транспорт с водителем по всей программе (автобус с кондиционером);</li>
+                        <li class="sale__item">- Все трансферы по программе;</li>
+                        <li class="sale__item">- Питание полупансион (завтрак + обед / или ужин);</li>
+                        <li class="sale__item">- Медицинская страховка;</li>
+                      </ul>
+                      <h4 class="sale__subtitle">ДОПОЛНИТЕЛЬНО ОПЛАЧИВАЕТСЯ:</h4>
+                      <ul class="sale__list">
+                        <li class="sale__item">- Виза в Иран (стоимость 75 евро, оформляется и оплачивается по прилету);</li>
+                        <li class="sale__item">- Входные билеты на достопримечательности (ок. 90 евро, оплата на месте);</li>
+                        <li class="sale__item">- Чаевые гиду (от 15 евро/чел); водителю (от 10 евро/чел); носильщикам и официантам;</li>
+                        <li class="sale__item">- Любые личные расходы;</li>
+                        <li class="sale__item">- Доплата за одноместное размещение в отелях;</li>
+                      </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <a href="https://wa.me/+79057902382" target="_blank" class="btn sale__btn-color btn__sale">Забронировать</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <img src="./img/sale/Morocco.jpg" class="card-img-top card__height" alt="Чайные плантации">
+            <div class="card-body">
+              <h5 class="card-title">Групповой гарантированный тур в Марокко &laquo;Марокканская весна&raquo;</h5>
+              <p class="card-text">Стоимость: от 135 000 руб/чел</p>
+              <p class="card-text">Заезд: 04.03.2023.</p>
+              <p class="card-text">Продолжительность: 8 дней / 7 ночей.</p>
+              <button type="button" class="btn sale__btn-color" data-toggle="modal" data-target="#exampleModal15">Подробнее</button>
+
+              <!-- Модальное окно -->
+              <div class="modal fade" id="exampleModal15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel15">Маршрут тура:</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3 class="sale__title">Касабланка – Рабат – Танжир – Шевшауен – Фес - Бени Меллаль - Марракеш – Эссувейра</h3>
+                      <h4 class="sale__subtitle">Программа тура:</h4>
+                      <ul class="sale__list">
+                        <li class="sale__item">04.03 / Москва – Стамбул – Касабланка</li>
+                        <li class="sale__item">Вылет из Москвы (а/п Внуково) в 02:25, рейс TK412.</li>
+                        <li class="sale__item">Прибытие в Стамбул в 06:30 (местное время)</li>
+                        <li class="sale__item">Вылет из Стамбула в 11:00, рейс TK617.</li>
+                        <li class="sale__item">По прибытию в 13:50 (местное время), встреча с гидом и ознакомительная экскурсия по Касабланке. Во время обзорной экскурсии Вы посетите площадь Объединенных Наций, квартал Habous и набережную La Corniche. Трансфер в Casablanca Oum Palace 4*, ужин и отдых.</li><br>
+                        <li class="sale__item">05.03 / Касабланка – Рабат – Танжир</li>
+                        <li class="sale__item">После завтрака выезд в Рабат. По прибытии в административную столицу Марокко вы увидите королевский дворец, мавзолей освободителя Марокко Мухаммеда V Башню Хасана, ровесницу знаменитой севильской Гиральды, Касбу Удайа.</li>
+                        <li class="sale__item">Переезд в Танжир, посещение мыса Спартель и Геркулесовых пещер.</li>
+                        <li class="sale__item">Ужин и ночь в отеле Tanger Andalucia Golf&Spa 4*.</li><br>
+                        <li class="sale__item">06.03 / Танжир - Шевшауен - Фес</li>
+                        <li class="sale__item">После завтрака небольшая экскурсия по Танжиру: площадь Гранд Сокко, медина с площадью Петит Сокко, касба с музеем и смотровой площадкой, с которой открывается вид на Гибралтар.</li>
+                        <li class="sale__item">Переезд в Шевшауен: этот необыкновенной красоты город расположен между 2-мя горами. Шевшауен известен своей архитектурой и тем, что подавляющее большинство стен зданий в нём окрашены в различные оттенки синего и голубого. Изюминка Марокко!</li>
+                        <li class="sale__item">Далее трансфер в Фес. По прибытию размещение в отеле Fes In 4*, ужин и отдых.</li><br>
+                        <li class="sale__item">07.03 / Фес – Бени Меллаль</li>
+                        <li class="sale__item">После завтрака экскурсия по Фес – культурной и религиозной столицы Королевства.</li>
+                        <li class="sale__item">Вы окунетесь в волшебную атмосферу средневекового восточного города, прогуляетесь по кривым и узким улочкам древней Медины и познакомитесь с многочисленными памятниками истории и архитектуры. Большинство этих памятников являются прекрасными образцами испано-мавританского архитектурного стиля. Вы посетите мечеть Бу Инанья, увидите медресе (мусульманские университеты), площадь и фонтан Нежарин, вы попадете в ремесленные кварталы, где мастера кожевенного, гончарного дела работают по технологии их дедов и прадедов, чьи секреты бережно передаются из поколения в поколение.</li>
+                        <li class="sale__item">Далее путешествие по живописной дороге в окружении берберских деревушек и кедровых лесов. Вы проедете мимо известного в Марокко горнолыжного курорта - Ифрана со специфической архитектурой, которая напомнит Вам о Европе. По прибытии в Бени Меллаль, размещение в отеле Beni Mellal Chems 4*, ужин и отдых.</li><br>
+                        <li class="sale__item">08.03 / Бени Мелляль – Каскад Узуд — Марракеш</li>
+                        <li class="sale__item">После завтрака отправление к самому высокому водопаду Северной Африки.</li>
+                        <li class="sale__item">Водопад Узуд, высотой 110 м, спадающий каскадами поражает мощью и великолепием природы. Узуд в переводе с берберского означает «оливковое дерево», и оливковые рощи до сих пор окружают водопад.</li>
+                        <li class="sale__item">Переезд в Марракеш, свободное время, ужин и ночь в отеле Marrakech Farah Magrib 4*.</li><br>
+                        <li class="sale__item">09.03 / Марракеш</li>
+                        <li class="sale__item">После завтрака в отеле целый день будет посвящён знакомству с «Жемчужиной Юга»- Марракешем. Сказочный, цветущий город, расположенный у подножия красных гор Высокого Атласа в окружении пальмовых рощ. Роскошь и пышность Востока, величие и нега восточных дворцов — всё это Марракеш. Поскольку город являлся одной из столиц Королевства в эпоху правления трёх династий марокканских султанов, именно здесь сосредоточено большое количество музеев и памятников архитектуры, каждый из которых – шедевр искусства.</li>
+                        <li class="sale__item">Вы посетите мечеть Кутубия (внешний осмотр), дворец Бахья, Сады Мажореля.</li>
+                        <li class="sale__item">Дополнительно - гробницы султанов династии Садистов (7 евро/ чел за вход).</li>
+                        <li class="sale__item">Ужин в отеле.</li>
+                        <li class="sale__item">По желанию, за дополнительную плату, ужин с Фольклорным Шоу в марокканском ресторане («Chez Ali» оплата на месте: приблизительно 45 евро/чел). Под сводами шатра, непременного атрибута марокканского праздника, Вы познакомитесь не только с самыми популярными блюдами марокканской кухни, но и с местным фольклором.</li>
+                        <li class="sale__item">Величественные погонщики верблюдов и мастера верховой езды и марокканской джигитовки придают этому вечеру особый шарм. Вы когда-нибудь видели танцующую лошадь? Если нет, Вам представится прекрасная возможность полюбоваться этим зрелищем.</li>
+                        <li class="sale__item">Ночь в отеле Marrakech Farah Magrib 4.</li><br>
+                        <li class="sale__item">10.03 / Марракеш – Эссувейра - Марракеш</li>
+                        <li class="sale__item">После завтрака отъезд в Эссуэйру, город-порт на берегу Атлантического океана. По прибытию Вы посетите бастион с подлинными испанскими пушками 18 века, небольшую крепость, построенную французским архитектором по заказу марокканского султана и старый город с его узкими улочками и фасадами, порт города. Также во время экскурсии есть возможность пообедать (свободный обед) в рыбном ресторане и предусмотреть свободное время для шоппинга. Ближе к вечеру возвращение в Марракеш, ужин в отеле и посещение самого красочного рынка Марокко и знаменитой площадь Jemaa El Fna.  Это настоящий театр под открытым небом. Кого тут только не увидишь - йоги, заклинатели змей, знахари, колдуны, торговцы фруктами и экзотическими приправами.</li>
+                        <li class="sale__item">Возвращение в отель Marrakech Farah Magrib 4* и отдых.</li><br>
+                        <li class="sale__item">11.03 / Марракеш – Стамбул</li>
+                        <li class="sale__item">После завтрака свободное время.</li>
+                        <li class="sale__item">Чек аут и трансфер в аэропорт.</li>
+                        <li class="sale__item">Вылет из Марракеш в Стамбул рейсом TK 620 в 15:15.</li>
+                        <li class="sale__item">Прибытие в Стамбул в 22:10 (местное время).</li><br>
+                        <li class="sale__item">12.03 / Стамбул – Москва (Внуково)</li>
+                        <li class="sale__item">Вылет из Стамбула в 01:55, рейс TK419.</li>
+                        <li class="sale__item">Прибытие в Москву (а/п Внуково) в 05:50 (местное время).</li><br>
+                        <li class="sale__item">Что входит в стоимость:</li><br>
+                        <li class="sale__item">- Авиабилет по маршруту Москва-Стамбул – Касабланка/ Марракеш -Стамбул - Москва;</li>
+                        <li class="sale__item">*а/к Turkish Airlines, тариф с багажом;</li>
+                        <li class="sale__item">- Проживание в отелях 4* по программе (или аналогичных) на полупансионе;</li>
+                        <li class="sale__item">- Транспорт с водителем по всей программе (современный minibus с кондиционером);</li>
+                        <li class="sale__item">- Все трансферы и переезды по программе;</li>
+                        <li class="sale__item">- Экскурсии по программе;</li>
+                        <li class="sale__item">- Русскоговорящий гид;</li>
+                        <li class="sale__item">- Входные билеты для посещения: медерса Фес, дворец Бахия, сады Мажорель;</li>
+                        <li class="sale__item">- Медицинская страховка;</li>
+                      </ul>
+                      <h4 class="sale__subtitle">ДОПОЛНИТЕЛЬНО ОПЛАЧИВАЕТСЯ:</h4>
+                      <ul class="sale__list">
+                        <li class="sale__item">- 25 евро с человека – ОБЯЗАТЕЛЬНЫЙ сервисный сбор на месте (передается гиду);</li>
+                        <li class="sale__item">- Личные расходы;</li>
+                        <li class="sale__item">- Доплата за одноместное размещение в отелях (180 евро);</li>
+                        <li class="sale__item">- Входные билеты на объекты, не включенные в программу шоу;</li>
+                        <li class="sale__item">- Дополнительные экскурсии или шоу-программы;</li>
+                      </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <a href="https://wa.me/+79057902382" target="_blank" class="btn sale__btn-color btn__sale">Забронировать</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <img src="./img/sale/maldives.jpg" class="card-img-top card__height" alt="Чайные плантации">
+            <div class="card-body">
+              <h5 class="card-title">Нескучные Мальдивы- Хит сезона!</h5>
+              <p class="card-text">Стоимость: от 126 000 руб/чел</p>
+              <p class="card-text">Заезд: 22.02.2023.</p>
+              <p class="card-text">Продолжительность: 9 дней / 8 ночей.</p>
+              <p class="card-text">Вы просили и мы это сделали!</p>
+              <button type="button" class="btn sale__btn-color" data-toggle="modal" data-target="#exampleModal16">Подробнее</button>
+
+              <!-- Модальное окно -->
+              <div class="modal fade" id="exampleModal16" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel16">Маршрут тура:</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3 class="sale__title">Тур на Мальдивы с экскурсиями‼️</h3>
+                      <h3 class="sale__title">Если вы давно мечтаете о поездке на Мальдивы, или же уже были здесь и очень соскучились — этот тур для вас!</h3>
+                      <h3 class="sale__title">Благодаря договоренностям, подкрепленным еще до подорожания цен, мы набираем всего 20 счастливчиков, и часть мест уже занято!</h3>
+                      <h3 class="sale__title">Мальдивы не зря называют раем на земле. Удивительные виды без столпотворений туристов, идеальная погода почти круглый год, красивейшие закаты на земле и удивительная природа, а местные экскурсии могут удивить даже бывалых путешественников.</h3>
+                      <h3 class="sale__title">Мы предлагаем вам 2 в 1 - место, где можно между принятием солнечных ванн и безмятежного отдыха на пляжах еще и провести время за нырянием в удивительно красивых местах, наблюдением за дельфинами и даже рыбалкой.</h3>
+                      <h3 class="sale__title">Мы будем жить в отеле Triton Prestige 4* на острове Маафуши c панорамным бассейном на крыше. Это отличный вариант для тех, кто хочет отдохнуть недорого, но качественно.</h3>
+                      <h4 class="sale__subtitle">Программа тура:</h4>
+                      <ul class="sale__list">
+                        <li class="sale__item">-Выезды на катере на снорклинг к прекрасным коралловым рифам</li>
+                        <li class="sale__item">-Обед на  песчаной отмели посреди океана</li>
+                        <li class="sale__item">-Наблюдение за дельфинами</li>
+                        <li class="sale__item">-Ныряние с маской и наблюдение за акулами няньками и карранксами и прогулка на катере до места ныряния</li>
+                        <li class="sale__item">-Ныряние с маской у затонувшего корабля</li>
+                        <li class="sale__item">-Кормление скатов</li>
+                        <li class="sale__item">-Ныряние с маской в Южном Ари Атолле - местом обитания китовых акул и огромных мант.</li>
+                        <li class="sale__item">-Океаническая рыбалка на закате</li>
+                        <li class="sale__item">-И несколько дней отдыха</li>
+                        <li class="sale__item">Алкоголь в ресторанах отеля не предоставляется, но на острове есть ежедневно приплывающий бар на лодке, в котором вы можете купить любые алкогольные напитки (на вынос и на месте)</li><br>
+                        <li class="sale__item">1 ДЕНЬ (22.02) Вылет Вылет из Москвы ШРМ в 23:05.</li><br>
+                        <li class="sale__item">2 ДЕНЬ (23.02) Приветственный ужин Прилет в Мале в 14:25</li>
+                        <li class="sale__item">Трансфер на катере в отель Triton Prestige на острове Маафуши.</li>
+                        <li class="sale__item">Приветственный ужин на пляже из морепродуктов только для нашей группы.</li><br>
+                        <li class="sale__item">3 ДЕНЬ (24.02) Экскурсия на полдня &laquo;Мальдивские приключения&raquo;</li>
+                        <li class="sale__item">Завтрак.</li>
+                        <li class="sale__item">Экскурсия на полдня «Мальдивские приключения» (09:00-15:30)</li>
+                        <li class="sale__item">• ныряние с маской в трех точках погружений</li>
+                        <li class="sale__item">• обед на песчаной отмели посреди океана (безалкогольные напитки включены)</li>
+                        <li class="sale__item">• наблюдение за дельфинами.</li>
+                        <li class="sale__item">Маски, ласты, полотенца и фотограф-сопровождающий включены!</li>
+                        <li class="sale__item">Ужин в отеле</li><br>
+                        <li class="sale__item">4 ДЕНЬ (25.02) Экскурсия на полдня &laquo;Открытие атолла Вааву&raquo;</li>
+                        <li class="sale__item">Завтрак.</li>
+                        <li class="sale__item">Экскурсия на полдня «Открытие атолла Вааву» (07:30-15:30)</li>
+                        <li class="sale__item">• ныряние с маской на атолле Диггири (акулы-няньки и карранксы)</li>
+                        <li class="sale__item">• ныряние с маской у затонувшего корабля</li>
+                        <li class="sale__item">• кормление скатов</li>
+                        <li class="sale__item">• прогулка по песчаной отмели</li>
+                        <li class="sale__item">• обед на  местном острове (вкл. безалкогольные напитки)</li>
+                        <li class="sale__item">• наблюдение за дельфинами.</li>
+                        <li class="sale__item">Маски, ласты и фотограф-сопровождающий включены!</li>
+                        <li class="sale__item">Ужин в отеле</li><br>
+                        <li class="sale__item">5 ДЕНЬ (26.02) Экскурсия на полдня &laquo;Вперед, за акулой!&raquo;</li>
+                        <li class="sale__item">Завтрак.</li>
+                        <li class="sale__item">Экскурсия на полдня «Вперед, за акулой!» (07:00-15:00)Завтрак.</li>
+                        <li class="sale__item">• ныряние с маской на поиски китовых акул и скатов-мант</li>
+                        <li class="sale__item">• обед на местном острове (вкл. безалкогольные напитки)</li>
+                        <li class="sale__item">• возможность увидеть скатов-мант и дельфинов.</li>
+                        <li class="sale__item">Маски, ласты, полотенца и фотограф-сопровождающий включены!</li>
+                        <li class="sale__item">Ужин в отеле</li><br>
+                        <li class="sale__item">6 ДЕНЬ (27.02) Свободный день</li>
+                        <li class="sale__item">Завтрак.</li>
+                        <li class="sale__item">Свободное время.</li>
+                        <li class="sale__item">Вечерняя рыбалка (17:00-20:00)</li>
+                        <li class="sale__item">Вся рыба, которую вы поймаете, будет приготовлена на ужин в вашем отеле!</li><br>
+                        <li class="sale__item">7 ДЕНЬ (28.02) Свободный день</li>
+                        <li class="sale__item">Завтрак.</li>
+                        <li class="sale__item">Свободное время</li>
+                        <li class="sale__item">Возможность заказать доп. экскурсии (снорклинг, ныряние с мантами, рыбалка)</li>
+                        <li class="sale__item">Ужин в отеле</li><br>
+                        <li class="sale__item">8 ДЕНЬ (01.03) Свободный день</li>
+                        <li class="sale__item">Завтрак.</li>
+                        <li class="sale__item">Свободное время</li>
+                        <li class="sale__item">Возможность заказать доп. экскурсии (снорклинг, ныряние с мантами, рыбалка)</li>
+                        <li class="sale__item">Ужин в отеле</li><br>
+                        <li class="sale__item">9 ДЕНЬ (02.03) Свободный день</li>
+                        <li class="sale__item">Завтрак.</li>
+                        <li class="sale__item">Свободное время</li>
+                        <li class="sale__item">Возможность заказать доп. экскурсии (снорклинг, ныряние с мантами, рыбалка)</li>
+                        <li class="sale__item">Ужин в отеле</li><br>
+                        <li class="sale__item">10 ДЕНЬ (03.03)</li>
+                        <li class="sale__item">Завтрак.</li>
+                        <li class="sale__item">Свободное время</li>
+                        <li class="sale__item">Трансфер (катер) в аэропорт Мале.</li>
+                        <li class="sale__item">Вылет в Москву в 10:15</li>
+                        <li class="sale__item">Прилет в 21:35</li>
+                      </ul>
+                      <h4 class="sale__subtitle">ЧТО ВХОДИТ В СТОИМОСТЬ:</h4>
+                      <ul class="sale__list">
+                        <li class="sale__item">Авиаперелет а/к Qatar Airways, питание входит, багаж 25 кг, ручная кладь 7 кг</li>
+                        <li class="sale__item">размещение в двухместных номерах</li>
+                        <li class="sale__item">трансферы на катере</li>
+                        <li class="sale__item">налоги и green tax</li>
+                        <li class="sale__item">питание по системе «шведский стол»: завтраки, ужины в ресторане.</li>
+                        <li class="sale__item">приветственный ужин на пляже</li>
+                        <li class="sale__item">медицинская страховка</li>
+                        <li class="sale__item">экскурсии по программе</li>
+                        <li class="sale__item">обеды на экскурсии по программе</li><br>
+                      </ul>
+                      <h4 class="sale__subtitle">ДОПОЛНИТЕЛЬНО ОПЛАЧИВАЕТСЯ:</h4>
+                      <ul class="sale__list">
+                        <li class="sale__item">доп.питание и напитки</li>
+                        <li class="sale__item">страховка от невыезда</li>
+                      </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <a href="https://wa.me/+79057902382" target="_blank" class="btn sale__btn-color btn__sale">Забронировать</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <img src="./img/sale/indonesia.jpg" class="card-img-top card__height" alt="Чайные плантации">
+            <div class="card-body">
+              <h5 class="card-title">&laquo;Индонезийские приключения&raquo;</h5>
+              <p class="card-text">Стоимость: от 165 000 руб/чел</p>
+              <p class="card-text">Заезд: 02.03.2023.</p>
+              <p class="card-text">Продолжительность: 10 дней / 9 ночей.</p>
+              <button type="button" class="btn sale__btn-color" data-toggle="modal" data-target="#exampleModal17">Подробнее</button>
+
+              <!-- Модальное окно -->
+              <div class="modal fade" id="exampleModal17" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel17">Маршрут тура:</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3 class="sale__title">Москва – Дубай – Денпасар – Дубай - Москва</h3>
+                      <h4 class="sale__subtitle">Программа тура:</h4>
+                      <ul class="sale__list">
+                        <li class="sale__item">1-й День 3 марта</li>
+                        <li class="sale__item">Прибытие на Бали</li>
+                        <li class="sale__item">Накануне, 02 марта вылет из Москвы, рейсами ак Emirates с пересадкой в Дубае 23:50 - 06:15</li>
+                        <li class="sale__item">03.03 в 09:10 вылет из ап Дубая  в Индонезию, прибытие в 22:20 в Денпасар на о. Бали.</li>
+                        <li class="sale__item">Трансфер в Убуд, заселение в гостиницу, ночь в отеле.</li>
+                        <li class="sale__item">Прибытие на Бали в 15:20 . Трансфер в Убуд, заселение в гостиницу – свободное время.</li><br>
+                        <li class="sale__item">2-й День 4 марта Свободный день</li>
+                        <li class="sale__item">Завтрак.  Свободный для отдыха день</li><br>
+                        <li class="sale__item">3-й День 5 марта Экскурсия &laquo;Экзотический калейдоскоп&raquo;</li>
+                        <li class="sale__item">Завтрак. Выезд из гостиницы.</li>
+                        <li class="sale__item">Экскурсия &laquo;Экзотический калейдоскоп&raquo; (весь день)</li>
+                        <li class="sale__item">Не знаем ни одного человека, кто не любил бы шоколад. И побывать на фабрике по производству шоколада – мечта не только детей. Потому наш сегодняшний день начнется с исполнения желаний!</li>
+                        <li class="sale__item">По приезду на шоколадную фабрику вас пригласят на небольшую экскурсию, покажут какао-бобы в сыром и обжаренном виде и расскажут о процессе, после чего предложат продегустировать всю продукцию. Мм-м-м. Это наша любимая часть поездки!</li>
+                        <li class="sale__item">Фабрика производит более 20 вкусов шоколада : с кокосом, ананасом, с лемонграссом, имбирем, с фруктами и орехами, корицей, мятой, перцем-чили, клюквой, морской солью, с розеллой, гвоздикой, банановыми чипсами, ягодами годжи и др.</li>
+                        <li class="sale__item">Следующая остановка – храм Улун Дану, построенный в 17 веке на берегу высокогорного священного озера Братан. Именно он изображен на 50.000 RP купюре. Храм гармонично вписывается в водный пейзаж озера. Перед вами откроются фантастические виды!</li>
+                        <li class="sale__item">После обеда мы отправимся к легендарным рисовые террасам Джатилуви. Настоящее украшение Бали, они расположены каскадом и простираются на сотни метров.</li>
+                        <li class="sale__item">Рисовые террасы орошаются по традиционной балийской системе «субак» и с 2012 г. охраняются ЮНЕСКО и гордо несут звание Всемирного наследия.</li>
+                        <li class="sale__item">Наша последняя остановка – Парк Бабочек. Общая площадь парка – 3.000 кв.метров, что делает его крупнейшим в Азии. Тут обитают тысячи бабочек, принадлежащих к 15-ти видам, обитающим в балийских джунглях, а также другие многочисленные насекомые и паукообразные.</li><br>
+                        <li class="sale__item">Наш совет — обувайте удобную обувь; возьмите с собой панамы,  деньги на напитки.В тур входит - кондиционированный транспорт, гид, входные билеты, обед. Заселение в отель на побережье, отдых. Ночь в отеле (Нуса Дуа).</li><br>
+                        <li class="sale__item">4-й День 6 марта Отдых на побережье</li>
+                        <li class="sale__item">Завтрак. Отдых на побережье  в отеле.</li><br>
+                        <li class="sale__item">5-й День 7 марта &laquo;вулкан Кинтамани +Бесаких&raquo;</li>
+                        <li class="sale__item">После раннего завтрака, выезд на обзорную экскурсию &laquo;вулкан Кинтамани +Бесаких&raquo;</li><br>
+                        <li class="sale__item">Маршрут этого тура проходит практически через весь остров. Целью вашей поездки будет посещение 2 главных достопримечательностей острова — вулкана с вулканическим озером Батур и храма Бесаких.</li>
+                        <li class="sale__item">Вы остановитесь на смотровой площадке, откуда открывается потрясающий вид. Вулкан Батур «вырос» внутри самой большой в Азии кальдеры - воронке после взрыва вулкана. Его склоны покрыты застывшими потоками лавы - свидетельство извержения прошлого века.</li>
+                        <li class="sale__item">Рядом расположилось одно из самых восхитительных озёр на Бали. Озеро Батур является крупнейшим на Бали озером (8х3 км.) вулканического происхождения. По поверьям, его воды наполняются 11-ю источниками Далее поездка в Бесаких - главный храм Бали, мать храмов, построенный у подножья самой высокой горы острова, Агунг. Гора и храм являются самыми почитаемыми объектами. Храмовый комплекс, состоящий из 22 отдельных храмов, стоит на высоте 1000 метров над уровнем моря. Бесаких невероятно красив, но для сотен туристов он открыт лишь частично, храня вековую загадочность.</li>
+                        <li class="sale__item">Во время экскурсии вы также посетите деревни Убуда, жители которых на протяжении веков хранят, передавая из поколения в поколение, прославившие Бали ремёсла. Вы увидите прекрасные изделия из золота, серебра, жемчуга и уникальные произведения из дерева и батика.</li>
+                        <li class="sale__item">Вы также посетите горный тропический сад, где выращивают кофе, какао, ваниль, Сможете продегустировать ароматные чаи, какао, кофе, приготовленный из свеже поджаренных зерен, а также увидите зверьков лювак, благодаря которым получают самый дорогой в мире кофе.</li><br>
+                        <li class="sale__item">Наш совет —берите с собой легкую кофточку, так как в горах может быть прохладно; обувайте удобную обувь; возьмите с собой деньги —вы сможете купить сувениры и фрукты.</li>
+                        <li class="sale__item">В тур входит - кондиционированный транспорт, гид, входные билеты, обед.</li>
+                        <li class="sale__item">Ко времени обеда успеваем вернуться в отель и продолжить наслаждаться  отдыхом в отеле.</li><br>
+                        <li class="sale__item">6-й День 8 Марта храм Улувату</li>
+                        <li class="sale__item">Завтрак.  В этот праздничный для женщин всего мира день, отдыхаем  в отеле и едем после 14:00 – 14:30  на праздничную экскурсию - к обрыву Улу Вату с ужином на закате, фантастический короткий тур к древнему храму Улувату, расположенному на самой вершине скалы, возвышающейся на сотню метров над Индийским океаном весьма впечатляет. Храм является домом для племени любопытных обезьян, свободно гуляющих по его территории.По пути к храму вы посетите культурный парк «ГэВэКа», где строится одна из самых высоких в мире скульптур и полюбоваться панорамой всего острова.</li>
+                        <li class="sale__item">По приезду на территорию храма у вас будет возможность сделать фотографии бескрайнего океана, волны которого разбиваются пенным фейерверком о пребрежные скалы.</li>
+                        <li class="sale__item">Считается, что именно здесь можно наблюдать самый красивый закат на Бали.</li>
+                        <li class="sale__item">И во время того, как рыжий диск солнца будет лениво опускаться в океан и подсвечивать горизонт мягким розовым светом, вы увидите традиционный танец Огня «Кечак», исполняемый несколькими десятками мужчин.</li>
+                        <li class="sale__item">Замечательным окончанием вечера станет ужин в ресторане у океана на легендарном побережье Джимбаран, где вам подадут вкуснейшие и свежие морепродукты, приготовленные на гриле. В меню : вода, лобстер, креветки, рыба, кальмар, ракушки; все подается с рисом, овощами и соусом, а в конце свежие фрукты.</li><br>
+                        <li class="sale__item">7-й день 9 марта Свободный день</li>
+                        <li class="sale__item">После завтрака наслаждаемся  отдыхом на побережье, день  в отеле.</li><br>
+                        <li class="sale__item">8-й День 10 марта выезд на экскурсию &laquo;«Магический Бали»&raquo;</li>
+                        <li class="sale__item">После завтрака, выезд на экскурсию «Магический Бали» (полный день)В этот день вы посетите одни из самых живописнейших мест Бали.Наша первая остановка – качели!</li>
+                        <li class="sale__item">Да, да, качели! Это очень популярное развлечение на о. Бали.Все качели расположены лицом к долине с высокими деревьями и видом  на реку, что делает этот аттракцион очень популярным из-за незабываемых ощущений и фотографий. Здесь есть 8 качелей для различного уровня адреналина, с высотой над землей от 10 до 60 метров. А также: качели в тандемах; большие гнезда; лодка в джунглях; квадрацикл в рисовых террасах и др. Также тут можно заглянуть в музей традиционной системы орошения «субак» и посетить кофейную плантацию с дегустацией кофе и чая.Продолжением экскурсии будет посещение удивительного места, священного Леса Обезьян. Здесь сказочные деревья, быстрая горная река, статуи, поросшие мхом и масса забавных мартышек, истинных хозяев этого реликтового леса. Вы прогуляетесь под тенью тропических деревьев и понаблюдаете за любопытными обезьянками.</li><br>
+                        <li class="sale__item">После обеда вы посетите водопад Тибумана. Небольшое количество посетителей и достаточно легкий доступ - не зря местные жители называют его одним из лучших сохранившихся секретным мест на острове.</li>
+                        <li class="sale__item">После обеда вы посетите водопад Тибумана. Небольшое количество посетителей и достаточно легкий доступ - не зря местные жители Пространство вокруг него покрыто зарослями папоротника и мха, что формирует здесь особую атмосферу, куда захочется вернуться вновь ради восхитительных ландшафтов и чистейшего воздуха.</li>
+                        <li class="sale__item">После обеда вы посетите водопад Тибумана. Небольшое количество посетителей Высота потока около 35 метров и, несмотря на ее мощь, купаться у подножия в большой ровной заводи с песчаным входом могут все, даже дети.</li><br>
+                        <li class="sale__item">Наш совет — обувайте удобную обувь; возьмите с собой панамы,  деньги на напитки, купальники/плавки и полотенца на случай купания в водопаде.</li>
+                        <li class="sale__item">В тур входит - кондиционированный транспорт, гид, входные билеты, обед.</li><br>
+                        <li class="sale__item">9-й День 11 марта Выезд</li>
+                        <li class="sale__item">Свободный день для приятного окончания отдыха. Сдача номеров поздно вечером непосредственно перед вечерним трансфером в аэропорт, вылет  12.02 в 00:05</li>
+                      </ul>
+                      <h4 class="sale__subtitle">ЧТО ВХОДИТ В СТОИМОСТЬ:</h4>
+                      <ul class="sale__list">
+                        <li class="sale__item">Международный авиаперелет Москва – Дубай – Денпасар – Дубай - Москва;</li>
+                        <li class="sale__item">Проживание на базе питания завтраки;</li>
+                        <li class="sale__item">Экскурсионная программа;</li>
+                        <li class="sale__item">По программе: 3 обеда и 1 ужин;</li>
+                        <li class="sale__item">Комфортабельный трансфер по маршруту;</li>
+                        <li class="sale__item">Все необходимые налоги, сборы и таксы;</li>
+                        <li class="sale__item">Медстраховка;</li>
+                      </ul>
+                      <h4 class="sale__subtitle">ДОПОЛНИТЕЛЬНО ОПЛАЧИВАЕТСЯ:</h4>
+                      <ul class="sale__list">
+                        <li class="sale__item">Визовый сбор , по прибытию – 35 USD</li>
+                        <li class="sale__item">Любые расходы, не включенные в программу, напитки, чаевые и личные расходы</li>
+                        <li class="sale__item">Проезд до\из Москвы</li>
+                        <li class="sale__item">Страховка от невыезда</li>
+                      </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <a href="https://wa.me/+79057902382" target="_blank" class="btn sale__btn-color btn__sale">Забронировать</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
       </div>
       <h2 class="my-5 text-center">Оставить заявку</h2>
       <div class="content-form my-5">

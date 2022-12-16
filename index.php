@@ -12,9 +12,20 @@
           </a>
         </li>
         <li>
+          <a href="https://t.me/miro_tour_msk" target="_blank" class="telegram">Telegram
+            <img src="./img/telegram.png" alt="telegramm">
+          </a>
+        </li>
+        <li>
           <a href="mailto:info@marytour.ru" class="mail"
             >E-mail
-            <img src="img/email.png" alt="email" />
+            <img src="./img/email.png" alt="email" />
+          </a>
+        </li>
+        <li>
+          <a href="https://vk.com/mirotour" target="_blank" class="mail"
+            >vkontakte
+            <img src="./img/vk_icon.png" alt="vkontakte" />
           </a>
         </li>
       </ul>
