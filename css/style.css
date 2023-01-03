@@ -33,7 +33,7 @@ button:focus {
 }
 .carousel-item img {
   width: 100%;
-  height: 700px;
+  height: 580px;
   object-fit: cover;
 }
 .navbar-logo {
@@ -591,4 +591,19 @@ textarea {
 .author:hover {
   color: aqua;
   text-shadow: 0 0 3px #000;
+}
+.main__privacy {
+  padding: 100px 50px;
+}
+.privacy__title {
+  margin: 0 0 50px;
+}
+.privacy {
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+.privacy:hover {
+  text-decoration: none;
+  color: #148399;
+  border-bottom: 1px solid #148399;
 }

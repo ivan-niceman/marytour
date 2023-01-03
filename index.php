@@ -104,7 +104,7 @@
           </div>
           <div class="checkbox">
             <input type="checkbox" required />
-            <label>Согласие на обработку данных</label>
+            <label class="label">Я даю согласие на <a href="./privacy" class="privacy">обработку моих персональных данных</a></label>
           </div>
           <button type="submit" class="form-btn mt-3">Отправить</button>
         </form>
